@@ -17,11 +17,11 @@ app = dash.Dash(__name__)
 # set up an layout
 app.layout = html.Div(children=[
     # H1 title on the page
-    html.H1(children='Hello Dash for HCDE 411'),
+    html.H1(children='Hello'),
 
     # a div to put a short description
     html.Div(children='''
-        This is a simple Dash application for HCDE 411
+        This is a simple Dash application for HCDE'
     '''),
 
     # append the visualization to the page
